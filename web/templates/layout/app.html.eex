@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Modern software development Aggency" />
+   <meta name="keywords" content="Meteor, Elixir, android, ios, webapps, mobile, phoenix, web design" />
+   <meta property="og:url"                content="http://wscodelabs.com/" />
+   <meta property="og:type"               content="article" />
+   <meta property="og:title"              content="WscodeLabs" />
+   <meta property="og:description"        content="Creative Software Development Agency" />
+   <meta property="og:image"              content="https://s3.postimg.org/5uc7d9iab/ws1.png" />
+
+    <title>Wscodelabs!</title>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+  </head>
+
+  <body>
+    <div id="app">
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>
